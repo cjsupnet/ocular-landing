@@ -1,0 +1,283 @@
+/*hero title*/ 
+
+.hero {
+	background:linear-gradient(to bottom right, #00C6FF, #0072FF);
+	padding: 60px 60px;
+}
+
+#hero-title{
+	color: #ffffff;
+	font-family: open sans;
+	font-size: 45px;
+	font-weight: bolder;
+	letter-spacing: 2px; 
+	line-height: 60px;
+	padding-top: 50px;
+	
+}
+
+.hero-description-top{
+	color: #ffffff;
+	font-family: open sans;
+	font-size: 24px;
+	letter-spacing: 2px; 
+	line-height: 30px;
+	text-align: center;
+}
+
+.hero-description-bottom{
+	color: #ffffff;
+	font-family: open sans;
+	font-size: 16px;
+	letter-spacing: 2px; 
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.hero-left{
+	text-align: center;
+}
+
+.call-to-action{
+	text-align: center;
+}
+
+.demo-left-btn{
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	color: #ffffff;
+	font-family: open sans;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 2px; 
+	padding: 15px 45px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.demo-left-btn:hover{
+	background-color: #ffffff;
+	border-radius: 8px;
+	color: #00C6FF;
+	font-family: open sans;
+	font-size: 18px;
+	font-weight: 400; 
+	letter-spacing: 2px; 
+	padding: 15px 45px;
+	text-decoration: none;
+	text-align: center;
+}
+
+/*Sections*/
+
+.four-sections{
+	background-color: #F0F4F7;
+	padding: 70px 75px;
+}
+
+.two-sections-business{
+	padding: 60px 75px;
+}
+
+.two-sections-consumers{
+	background-color: #F0F4F7;
+	padding: 60px 75px;
+}
+
+.column-title{
+	color: #525F7F;
+	font-family: open sans;
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.section-title-center-light{
+	color: #525F7F;
+	font-family: open sans;
+	font-weight: 600;
+	letter-spacing: 1.66px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.section-description-left{
+	color: #525F7F;
+	font-family: open sans;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+	text-align: left;
+}
+
+.section-description-center{
+	color: #525F7F;
+	font-family: open sans;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.section-title-left{
+	color: #525F7F;
+	font-family: open sans;
+	font-weight: 600;
+	letter-spacing: 1.66px;
+	margin-bottom: 20px;
+}
+
+.section-title-center-dark{
+	color: #ffffff;
+	font-family: open sans;
+	font-weight: 600;
+	letter-spacing: 1.66px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.call-to-action{
+	background:linear-gradient(to bottom right, #00C6FF, #0072FF);
+	padding: 80px 50px;	
+}
+
+.demo-center-btn{
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	color: #ffffff;
+	font-family: open sans;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 2px; 
+	padding: 15px 45px;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.demo-center-btn:hover{
+	background-color: #ffffff;
+	border-radius: 8px;
+	color: #00C6FF;
+	font-family: open sans;
+	font-size: 18px;
+	font-weight: 400; 
+	letter-spacing: 2px; 
+	padding: 15px 45px;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.highlight-text{
+	color: #1A99FB;
+	font-weight: 500;
+}
+
+.footer-text{
+	color: #A7B3C2;
+	font-family: open sans;
+	font-size: 10px;
+	letter-spacing: 1.66px; 
+	text-align: center;
+}
+
+.footer{
+	padding: 30px 60px;
+}
+
+ul{
+	list-style-image: url(imgs/checkmark.png);
+	list-style-position: outside;
+}
+
+/*imgs*/
+#hero-graphic{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+#business-flowchart{
+	width: 55%;
+	display: block;
+	margin: auto;
+}
+
+.section-icon{
+	display: block;
+	margin: auto;
+	width: 25%;
+}
+
+#consumer-graphic{
+	display: block;
+	margin: auto;
+	width: 75%;
+}
+
+#stats-graphic{
+	display: block;
+	margin: auto;
+	width: 75%;
+}
+
+@media (max-width: 427px) {
+ .three-sections{
+	background-color: #F5F8FB;
+	padding: 50px 50px;
+}
+
+ .two-sections-business{
+	padding: 60px 50px;
+}
+
+.two-sections-consumers{
+	background-color: #F5F8FB;
+	padding: 60px 50px;
+}
+
+#hero-graphic{
+	width: 100%;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#business-flowchart{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+#consumer-graphic{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+.section-title-left{
+	color: #525F7F;
+	letter-spacing: 1.66px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.section-description-left{
+	color: #525F7F;
+	font-family: open sans;
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#stats-graphic{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+}
